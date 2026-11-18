@@ -41,7 +41,7 @@ src/test/java/com/assetmark/analyzer/
 
 ### Input
 
-- The input is an in-memory `List<Transaction>`.
+- The input is an in-memory `List<Transaction>`. The spec describes a list of transactions but no input format, so parsing JSON (or reading from an API or file) is out of scope. 
 - A `null` list throws a `NullPointerException`. An empty list returns empty summaries and a `null` `topSpender`.
 - A `null` entry in the list counts as an invalid transaction.
 
