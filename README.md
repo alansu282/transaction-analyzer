@@ -16,7 +16,7 @@ Processes a list of financial transactions and produces per-account summaries an
 
 With Maven installed, `mvn test` and `mvn compile exec:java` work the same way.
 
-The first run downloads JUnit and the Maven plugins. `WARNING` log lines during the run are expected: they come from invalid transactions being skipped.
+The first run downloads JUnit and the Maven plugins. `WARNING` log lines during the run are expected: they come from invalid transactions being skipped. To try other input, edit the transaction list in Main.java, or add a test using the builders in TestData.java
 
 ## Project Structure
 
